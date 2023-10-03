@@ -52,4 +52,4 @@ class ViewController: UIViewController {
         }
     }
 
-
+// Данную задачу можно решить в том числе с помощью оператора swich
