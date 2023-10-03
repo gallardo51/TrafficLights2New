@@ -36,6 +36,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="YVY-S4-s3A"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Dft-d4-ay6">
                                 <rect key="frame" x="100" y="60" width="120" height="376"/>
@@ -70,6 +73,12 @@
                             <constraint firstItem="7aQ-rH-arh" firstAttribute="top" secondItem="Dft-d4-ay6" secondAttribute="bottom" constant="60" id="g92-FX-7N4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLightLabelView" destination="XT8-Fp-xhA" id="Xas-s0-Tfd"/>
+                        <outlet property="redLightLabelView" destination="6Uf-xy-lJF" id="SJs-CR-yop"/>
+                        <outlet property="startButtonLabelButton" destination="7aQ-rH-arh" id="NRJ-xj-G8k"/>
+                        <outlet property="yellowLightLabelView" destination="30J-0f-n3o" id="8ws-iU-gFE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
